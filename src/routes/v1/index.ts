@@ -12,7 +12,6 @@ const msg: Message = {
       title: "al back gronud",
       body: "T",
       visibility: "public",
-      channelId: "ziad",
     },
     data: { test: "zero zozo" },
   },
