@@ -6,12 +6,15 @@ const v1Routes = express.Router();
 
 const msg: Message = {
   token:
-    "dgHHFgufRf-L0SllY18yUs:APA91bG6OpCvn3kln4sbYq7_wooRPE329E2bVMHZeWgIzGvLzoYYvNRIKsHu7dDjSgLR7uvgoP5W7IWjj8s9_Va13KVt7xXCyiWftr2OWTtwHoFl4zwjqct6vDpOmj-w4dF9qnlXeRjf",
+    "d5tae-ugQhuDvJB0bx6Cmv:APA91bFOJSk2qxotBLC0m5kEqJfhNU-klo8mozzAfp_k8hTwsybjTUjQV3k8uxCiR_tMbx6-a93s_nThkaVZ5w5OAcSAp1NSXEFnZnnN61QonuDSb1VLHavn8307PS7_hyK3Ie92w1r0",
   android: {
     notification: {
-      title: "al back gronud",
-      body: "T",
+      title: "Title body",
+      body: "body Title",
       visibility: "public",
+      channelId: 'basic_channel',
+      sound: "alarm",
+      color: "#000000"
     },
     data: { test: "zero zozo" },
   },
