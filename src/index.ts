@@ -9,8 +9,6 @@ import credential from "../credential.json";
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig: AppOptions = {
-  projectId: "test-app-9e997",
-  serviceAccountId: "firebase-adminsdk-lzr26@test-app-9e997.iam.gserviceaccount.com",
   credential: admin.credential.cert(credential as any),
 };
 

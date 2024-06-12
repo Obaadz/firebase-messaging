@@ -6,7 +6,7 @@ const v1Routes = express.Router();
 
 const msg: Message = {
   token:
-    "d5tae-ugQhuDvJB0bx6Cmv:APA91bFOJSk2qxotBLC0m5kEqJfhNU-klo8mozzAfp_k8hTwsybjTUjQV3k8uxCiR_tMbx6-a93s_nThkaVZ5w5OAcSAp1NSXEFnZnnN61QonuDSb1VLHavn8307PS7_hyK3Ie92w1r0",
+    "cESpDwxCRfeiRHvKPrE2JF:APA91bEjdzVFT-p-XcL-oAK-P4UIo7reKJLx5v9G0aKBkRIknEpFM2FFkrxTHrx4qjnNamWZEm4sYlcAfRnoqNb507eCCpCUTMIrea8wCadoyf72sZ9r3DMT6jiAMnIwo0BO9IXNi-xJ",
   android: {
     notification: {
       title: "Title body",
